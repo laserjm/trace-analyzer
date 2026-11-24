@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Case data stays local: traces can contain VINs, GPS positions and confidential content
+cases/*
+!cases/.gitkeep

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "trace-tools": {
+      "type": "local",
+      "command": "uv",
+      "args": ["run", "trace-mcp"],
+      "env": {
+        "TRACE_CASES_DIR": "cases"
+      },
+      "tools": ["*"]
+    }
+  }
+}
